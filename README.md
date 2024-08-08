@@ -4,7 +4,7 @@
 
 Welcome to Katana, the cutting-edge tool that uses multiple collaborative AI agents to actively detect website security issues. The ultimate synergy of advanced technology and intelligent agents to keep your online assets safe.
 
-![AI Agents for Web security scanning](assets/Katana_Armur.png)
+![AI Agents for Web security scanning](assets/Katana_Armur.jpg)
 
 ### Key Features
 
@@ -279,3 +279,53 @@ To set up the project, follow these steps:
             return Agent(
                 role='Industry Analyst',
                 goal='Analyze the current
+                ## Defining Security Analysis Agents
+1. **Agents**:
+    ```python
+    from textwrap import dedent
+    from crewai import Agent
+
+    class SecurityAnalysisAgents:
+        def industry_analysis_agent(self):
+            return Agent(
+                role='Industry Analyst',
+                goal='Analyze the current
+            )
+    ```
+
+## Contributing
+
+We welcome contributions from the community! To contribute, follow these steps:
+
+1. **Fork the repository**:
+    - Click the "Fork" button on the top right of this repository page.
+
+2. **Clone your forked repository**:
+    ```bash
+    git clone https://github.com/Armur-Ai/Katana-AI-Agents-for-website-vulnerabilities-scanning.git
+    ```
+
+3. **Create a new branch**:
+    ```bash
+    git checkout -b feature-branch-name
+    ```
+
+4. **Make your changes**:
+    - Add your features or fix bugs.
+
+5. **Commit your changes**:
+    ```bash
+    git add .
+    git commit -m "Description of the changes"
+    ```
+
+6. **Push to your forked repository**:
+    ```bash
+    git push origin feature-branch-name
+    ```
+
+7. **Create a Pull Request**:
+    - Go to the original repository you forked from.
+    - Click on "New Pull Request" and follow the instructions.
+
+Thank you for contributing!
