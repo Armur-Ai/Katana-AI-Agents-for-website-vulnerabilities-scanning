@@ -2,7 +2,9 @@
 
 ## AI Agents for Ultimate Vulnerability Detection
 
-Welcome to Katana, the cutting-edge tool that uses the power of AI agents to enhance website security. The ultimate synergy of advanced technology and intelligent agents to keep your online assets safe.
+Welcome to Katana, the cutting-edge tool that uses multiple collaborative AI agents to actively detect website security issues. The ultimate synergy of advanced technology and intelligent agents to keep your online assets safe.
+
+![AI Agents for Web security scanning](assets/Katana_Armur.png)
 
 ### Key Features
 
